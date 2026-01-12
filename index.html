@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <br />
+      <br />
+      <div>
+        <label for="length"> Password Length: </label>
+        <input type="number" id="length" value="10" min="8" max="20" />
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="uppercase"
+          name="uppercase"
+          value="uppercase_letters_included"
+        />
+        <label for="upper_case"> Uppercase Letters</label>
+      </div>
+      <br />
+      <div>
+        <input
+          type="checkbox"
+          id="numbers"
+          name="numbers"
+          value="numbers_included"
+        />
+        <label for="numbers"> Numbers</label>
+      </div>
+      <br />
+      <div>
+        <input
+          type="checkbox"
+          id="symbols"
+          name="symbols"
+          value="symbols_included"
+        />
+        <label for="symbols"> Symbols</label>
+      </div>
+      <br />
+
+      <button id="generate">Generate Password</button>
+      <div>
+        <label for="password">Password: </label>
+        <input type="text" id="password" name="password" />
+      </div>
+      <div>
+        <h4>There are:</h4>
+        <br />
+        <h4 id="possible_combos">[Blank]</h4>
+        <br />
+        <h4>
+          possible combinations for current password length with selected
+          characters.
+        </h4>
+      </div>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
