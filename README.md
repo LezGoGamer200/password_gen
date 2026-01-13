@@ -3,3 +3,5 @@ I also added a little part at the bottom to let you know just how many different
 I will let you know however, once you get a long enough password length, it just says that there are infinite possibilities.
 Also, just to let you know, if you use one of these passwords, make sure to write it down or save it in a secure location for later use, as this generator will not save the passwords it makes.
 Anyways, have fun! 
+
+Link to Github Pages: https://lezgogamer200.github.io/password_gen/ 
